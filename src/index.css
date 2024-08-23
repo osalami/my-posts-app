@@ -1,0 +1,84 @@
+/* App.css */
+
+/* Resetting the margin and padding */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #5631d0;
+  color: white;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  padding: 20px;
+  background-color: #a435f0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.posts-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.post {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.author {
+  font-size: 14px;
+  color: #888;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.new-post-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #bba1de;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.new-post-button:hover {
+  background-color: #cba1da;
+}
